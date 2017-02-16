@@ -1,0 +1,44 @@
+<html>
+<head>
+<style>
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 300px;
+    height: 120px;
+    font-size: small;
+  	line-height: 1.4;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+table, th, td {
+    border: 1px solid black;
+}
+</style>
+</head>
+<body>
+<div id="header">
+	<p>Welcome to use CopyPaster!</p>
+	<p>Try to use combined keys ctrl+L, and the title and url of current page would be copied!</p>
+</div>	
+<div>
+<table>
+	<tr>
+		<th>Title</th>
+		<td id="pagetitle"></td>
+	</tr>
+	<tr>
+		<th>Url</th>
+		<td id="pageurl"></td>
+	</tr>
+</table>
+</div>
+<script src="js/popup.js"></script>
+</body>
+</html>
